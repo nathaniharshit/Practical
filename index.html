@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-3</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 5px;
+    }
+    .container > div {
+        background-color: #ffffff;
+        border: 2px solid black;
+        padding: 15px;
+}
+    img{
+        width: 70%;
+        height: auto;
+    }
+</style>
+<body>
+    <h1>Practical-3</h1>
+
+    <h2>What do we need to do in this Practical</h2>
+    <p><b>Topics to Cover:</b> <br>
+        <ul>
+            <li>What is Node.js?</li>
+            <li>Installing Node.js.</li>
+            <li>Using the Node.js REPL.</li>
+            <li>Core modules (fs, path, os).</li>
+            <li>Writing and running a simple script.</li>
+        </ul> <br>
+        <b>Project: System Utility Dashboard</b> <br>
+        <ul>
+            <li>Objective: Create a node application that provides system information.</li>
+        </ul>
+        <b>Tasks:</b><br>
+        <ul>
+            <li>Use the os module to display the OS type, total memory, free memory, and CPU details.</li>
+            <li>Use the fs module to save the system information to a log file.</li>
+            <li>Use the path module to ensure the file is saved in a standardized format (logs/system-info.txt).</li>
+            <li>Working with Custom Modules and HTTP</li>
+        </ul>
+        
+        <b>Topics to Cover:</b> <br>
+        <ul>
+            <li>Custom modules: require and module.exports.</li>
+            <li>Using the HTTP module to create a server.</li>
+            <li>Handling different URL paths manually.</li>
+        </ul>
+
+        <b>Project: Basic Static File Server</b> <br>
+        <ul>
+            <li>Objective: Build an HTTP server to serve static files like HTML, CSS, and images.</li>
+        </ul>
+        
+        <b>Tasks:</b>
+        <ul>
+            <li>Create a simple HTML page with a welcome message and a few images.</li>
+            <li>Use the http and fs modules to serve these files when the browser requests them.</li>
+            <li>Add logic to handle 404 errors when a file is not found.</li>
+        </ul>
+        </p>
+
+        <div class="container">
+            <div><img class="html" src="image1.jpg" alt="html"></div>
+            <div><img class="css" src="image2.jpg" alt="css"></div>
+        </div>
+
+</body>
+</html>
